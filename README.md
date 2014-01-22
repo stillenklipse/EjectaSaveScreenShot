@@ -12,7 +12,7 @@ Source/Ejecta/EJUtils/
 
 Then within your game when you want to take a screen shot, use something similar to this:
 
-
+````javascript
 if( window.ejecta ){
 	    var Screenshot = new Ejecta.Screenshot();
     	Screenshot.gameHeight = 320;
